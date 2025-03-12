@@ -15,6 +15,6 @@ router.post('/verify-otp', userAuth, verifyOtp);
 router.get('/is-authenticated', userAuth, isAuthenticated);
 
 router.post('/send-reset-password-otp', sendResetPasswordOtp);
-router.post('/verify-reset-password-otp', verifyResetPasswordOtp);
+router.post('/verify-reset-password-otp', userAuth, verifyResetPasswordOtp);
 
 export default router; 
