@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema({
     preferredLanguage: {
         type: String,
         required: [true, 'Please select a preferred language'],
-        enum: ['English', 'Spanish', 'French', 'German', 'Other'],
+        enum: ['English', 'Hindi', 'Bengali', 'Telugu', 'Marathi', 'Tamil', 'Urdu', 'Gujarati', 'Kannada', 'Malayalam', 'Odia', 'Punjabi', 'Assamese'],
         default: 'English'
     },
     state: {
