@@ -3,6 +3,9 @@ node_modules/
 package-lock.json
 yarn.lock
 
+# implementation files
+implementation_plan.txt
+
 # Environment variables
 .env
 .env.local
